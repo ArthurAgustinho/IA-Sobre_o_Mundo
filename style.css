@@ -1,8 +1,9 @@
 :root{
     --cor-fundo: #252525 ;
     --cor-principal: #0f1014 ;
-    --cor-secundaria: #212333; 
+    --cor-secundaria: #313236; 
     --cor-destaque: #fd2b2b;
+    --cor-borda: #ff0000;
     --cor-texto: #D7F9FF;
 
 }
@@ -22,7 +23,7 @@ body {
     max-width: 1000px;
     text-align: center;
     padding: 20px;
-    border: 2px solid var(--cor-destaque);
+    border: 2px solid var(--cor-borda);
 }
 
 h1{
@@ -45,12 +46,12 @@ button {
 
 button:first-child {
     border-radius: 40px 40px 0 0;
-    border-bottom: 2px solid var(--cor-destaque);
+    border-bottom: 2px solid var(--cor-borda);
 }
 
 button:last-child{
     border-radius: 0 0 40px 40px;
-    border-top: 2px solid var(--cor-destaque);
+    border-top: 2px solid var(--cor-borda);
 }
 
 button:hover{
